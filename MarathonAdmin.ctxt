@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MarathonAdmin()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ MarathonAdmin\r\n
+comment1.params=
+comment1.target=void\ readInRunners()
+comment1.text=\r\n\ Prompts\ the\ user\ to\ select\ the\ file\ runners.txt.\ \r\n\ Reads\ runners\ names\ and\ ages\ from\ the\ file\ and\ creates\r\n\ a\ new\ Runner\ object.\ Its\ instance\ variables\ name\ is\ set\r\n\ using\ the\ value\ from\ the\ file.\ The\ instance\ variable\ ageGroup\ \r\n\ is\ calculated\ from\ the\ runner's\ age\ -\ runners\ \r\n\ under\ 18\ are\ in\ 'junior'\ category,\ runners\ tha\ are\ 55\ or\ older\r\n\ are\ in\ 'senior'\ category.\ All\ other\ runners\ remain\ in\ 'standard'\ category.\r\n\ The\ instance\ of\ Runner\ is\ added\ to\ the\ list\ referenced\ \r\n\ by\ the\ instance\ variable\ runners.\ \r\n\ Takes\ no\ arguments.\ Returns\ no\ value.\r\n
+comment2.params=
+comment2.target=void\ runMarathon()
+comment2.text=\r\n\ Iterates\ over\ runners\ and\ generates\ a\ random\ number\r\n\ between\ 90\ and\ 180\ inclusive.\ The\ number\ is\ then\ used\ to\ set\ \r\n\ the\ time\ (in\ minutes)\ for\ each\ runner.\r\n\ Takes\ no\ arguments\ and\ returns\ no\ value.\r\n
+comment3.params=
+comment3.target=void\ sortRunnerList()
+comment3.text=\r\n\ Sorts\ the\ receiver's\ runners\ list\ by\ the\ time\ of\ each\ runner\r\n\ in\ ascending\ order\ so\ that\ the\ fastest\ runner\ is\ first\r\n\ in\ the\ list\ and\ the\ next\ fastest\ is\ second\ and\ so\ on.\r\n\ Takes\ no\ arguments\ and\ returns\ no\ value.\r\n
+comment4.params=
+comment4.target=void\ categorise()
+comment4.text=\ \r\n\ Populates\ the\ maps\ juniorResults,\ standardResults\ and\ seniorResults\ \r\n\ with\ the\ names\ and\ times\ of\ runners\ in\ the\ correct\ category.\r\n\ Takes\ no\ arguments\ and\ returns\ no\ value.\r\n
+numComments=5
